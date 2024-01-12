@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<form method="post" asp-action="Index">
+    <div>
+        <p>Name:</p>
+        <input type="text" name="Name" />
+    </div>
+    <div>
+        <p>Age:</p>
+        <input type="text" name="Age" />
+    </div>
+    <div>
+        <label>
+            <input type="checkbox" name="Handsome" />
+            Are you Handsome?
+        </label>
+    </div>
+    <button class="button" type="submit">Submit</button>
+</form>
